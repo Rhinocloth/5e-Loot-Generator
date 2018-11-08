@@ -1,0 +1,23 @@
+C:\Users\Gage Anemone\source\repos\DND 5e Loot Generator\DND 5e Loot Generator\bin\Debug\DND 5e Loot Generator.exe.config
+C:\Users\Gage Anemone\source\repos\DND 5e Loot Generator\DND 5e Loot Generator\bin\Debug\DND 5e Loot Generator.exe
+C:\Users\Gage Anemone\source\repos\DND 5e Loot Generator\DND 5e Loot Generator\bin\Debug\DND 5e Loot Generator.pdb
+C:\Users\Gage Anemone\source\repos\DND 5e Loot Generator\DND 5e Loot Generator\obj\Debug\DND 5e Loot Generator.csprojAssemblyReference.cache
+C:\Users\Gage Anemone\source\repos\DND 5e Loot Generator\DND 5e Loot Generator\obj\Debug\DND_5e_Loot_Generator.Form1.resources
+C:\Users\Gage Anemone\source\repos\DND 5e Loot Generator\DND 5e Loot Generator\obj\Debug\DND_5e_Loot_Generator.Properties.Resources.resources
+C:\Users\Gage Anemone\source\repos\DND 5e Loot Generator\DND 5e Loot Generator\obj\Debug\DND 5e Loot Generator.csproj.GenerateResource.cache
+C:\Users\Gage Anemone\source\repos\DND 5e Loot Generator\DND 5e Loot Generator\obj\Debug\DND 5e Loot Generator.csproj.CoreCompileInputs.cache
+C:\Users\Gage Anemone\source\repos\DND 5e Loot Generator\DND 5e Loot Generator\obj\Debug\DND 5e Loot Generator.exe
+C:\Users\Gage Anemone\source\repos\DND 5e Loot Generator\DND 5e Loot Generator\obj\Debug\DND 5e Loot Generator.pdb
+C:\Users\Gage Anemone\source\repos\DND 5e Loot Generator\DND 5e Loot Generator\obj\Debug\DND_5e_Loot_Generator.TreasureHoard.resources
+C:\Users\Gage Anemone\source\repos\DND 5e Loot Generator\5e-Loot-Generator\DND 5e Loot Generator\bin\Debug\DND 5e Loot Generator.exe.config
+C:\Users\Gage Anemone\source\repos\DND 5e Loot Generator\5e-Loot-Generator\DND 5e Loot Generator\bin\Debug\DND 5e Loot Generator.exe
+C:\Users\Gage Anemone\source\repos\DND 5e Loot Generator\5e-Loot-Generator\DND 5e Loot Generator\bin\Debug\DND 5e Loot Generator.pdb
+C:\Users\Gage Anemone\source\repos\DND 5e Loot Generator\5e-Loot-Generator\DND 5e Loot Generator\obj\Debug\DND 5e Loot Generator.csprojAssemblyReference.cache
+C:\Users\Gage Anemone\source\repos\DND 5e Loot Generator\5e-Loot-Generator\DND 5e Loot Generator\obj\Debug\DND_5e_Loot_Generator.Form1.resources
+C:\Users\Gage Anemone\source\repos\DND 5e Loot Generator\5e-Loot-Generator\DND 5e Loot Generator\obj\Debug\DND_5e_Loot_Generator.Loot.resources
+C:\Users\Gage Anemone\source\repos\DND 5e Loot Generator\5e-Loot-Generator\DND 5e Loot Generator\obj\Debug\DND_5e_Loot_Generator.Properties.Resources.resources
+C:\Users\Gage Anemone\source\repos\DND 5e Loot Generator\5e-Loot-Generator\DND 5e Loot Generator\obj\Debug\DND_5e_Loot_Generator.TreasureHoard.resources
+C:\Users\Gage Anemone\source\repos\DND 5e Loot Generator\5e-Loot-Generator\DND 5e Loot Generator\obj\Debug\DND 5e Loot Generator.csproj.GenerateResource.cache
+C:\Users\Gage Anemone\source\repos\DND 5e Loot Generator\5e-Loot-Generator\DND 5e Loot Generator\obj\Debug\DND 5e Loot Generator.csproj.CoreCompileInputs.cache
+C:\Users\Gage Anemone\source\repos\DND 5e Loot Generator\5e-Loot-Generator\DND 5e Loot Generator\obj\Debug\DND 5e Loot Generator.exe
+C:\Users\Gage Anemone\source\repos\DND 5e Loot Generator\5e-Loot-Generator\DND 5e Loot Generator\obj\Debug\DND 5e Loot Generator.pdb
