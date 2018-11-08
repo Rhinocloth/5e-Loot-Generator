@@ -34,16 +34,16 @@
             // displayLabel
             // 
             this.displayLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.displayLabel.Location = new System.Drawing.Point(58, 54);
+            this.displayLabel.Location = new System.Drawing.Point(60, 54);
             this.displayLabel.Name = "displayLabel";
-            this.displayLabel.Size = new System.Drawing.Size(212, 340);
+            this.displayLabel.Size = new System.Drawing.Size(349, 340);
             this.displayLabel.TabIndex = 0;
             // 
             // Loot
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(329, 448);
+            this.ClientSize = new System.Drawing.Size(468, 448);
             this.Controls.Add(this.displayLabel);
             this.Name = "Loot";
             this.Text = "Loot";
