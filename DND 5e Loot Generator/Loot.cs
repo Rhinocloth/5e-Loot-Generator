@@ -27,40 +27,37 @@ namespace DND_5e_Loot_Generator
 
         private void Loot_Load(object sender, EventArgs e)
         {
-            // find connection string
-            string connectionString = DND_5e_Loot_Generator.Properties.Settings.Default.Magic_ItemConnectionString;
-            using (SqlConnection connection = new SqlConnection(connectionString))
-            {
-                connection.Open();
-
-                using (SqlCommand findJug = new SqlCommand("SELECT * FROM ITEM_LIST WHERE Name = 'Alchemy Jug';", connection))
-                {
-                    using (SqlDataReader reader = findJug.ExecuteReader())
-                    {
-                        while (reader.Read())
-                        {
-                            for (int i = 0; i < reader.FieldCount; i++)
-                            {
-                                Object[] array = new Object[10];
-                                reader.GetValues(array);
-                                for (int o = 0; i < array.Length; i++)
-                                {
-                                    displayLabel.Text += array[i] + " ";
-                                }
-                                displayLabel.Text += "\n";
-                                
-                            }
-                        }
-                    }
-                }
-            }
+            GenerateLoot();
         }
 
-        private void GenerateLoot(int index)
+        private void GenerateLoot()
         {
+            Random rand = new Random();
+            string commandString = "";
+
             switch (crIndex)
             {
                 case 0:
+                    int[] itemAmounts = { 0,0,1,1,2,3,4 };
+                    int numItems = itemAmounts[rand.Next(0, itemAmounts.Length - 1)];
+                    for (int i = 0; i < numItems; i++)
+                    {
+                        int percent = rand.Next(1, 11);
+                        percent = 11;
+                        if (percent <= 6)
+                            commandString = "Select top 1 * From ITEM_LIST where Rarity = 'common' and (Type = 'potion' or Type = 'scroll' or Subtype = 'consumable') order by NewId();";
+                        
+                        else if (percent > 6 && percent <= 8)
+                            commandString = "Select top 1 * From ITEM_LIST where Rarity = 'uncommon' and (Type = 'potion' or Type = 'scroll' or Subtype = 'consumable') order by NewId();";
+
+                        else if (percent == 9)
+                            commandString = "Select top 1 * From ITEM_LIST where Rarity = 'rare' and (Type = 'potion' or Type = 'scroll' or Subtype = 'consumable') order by NewId();";
+
+                        else
+                            commandString = "Select top 1 * From ITEM_LIST where Rarity = 'uncommon' and not (Type = 'potion' or Type = 'scroll' or Subtype = 'consumable') order by NewId();";
+
+                        randomItem(commandString);
+                    }
                     break;
                 case 1:
                     break;
@@ -68,6 +65,27 @@ namespace DND_5e_Loot_Generator
                     break;
                 case 3:
                     break;
+            }
+        }
+
+        public void randomItem(string commandString)
+        {
+            string connectionString = DND_5e_Loot_Generator.Properties.Settings.Default.Magic_ItemConnectionString;
+            SqlConnection connection = new SqlConnection(connectionString);
+            connection.Open();
+
+            SqlCommand find = new SqlCommand(commandString, connection);
+            SqlDataReader reader = find.ExecuteReader();
+            
+            while (reader.Read())
+            {
+                Object[] array = new Object[10];
+                reader.GetValues(array);
+                for (int i = 0; i < array.Length; i++)
+                {
+                    displayLabel.Text += array[i] + " ";
+                }
+                displayLabel.Text += "\n";
             }
         }
     }
